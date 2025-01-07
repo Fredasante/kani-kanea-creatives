@@ -207,11 +207,6 @@
   right: 0;
 }
 
-.team-item:hover .team-img::before,
-.team-item:hover .team-img::after {
-  width: 50%;
-}
-
 .team-item .team-img .team-social {
   position: absolute;
   width: 100%;
@@ -229,18 +224,6 @@
 .team-item:hover .team-img .team-social {
   transition-delay: 0.3s;
   opacity: 1;
-}
-
-.team-item .team-social .btn {
-  display: inline-flex;
-  margin: 0 3px;
-  color: var(--primary);
-  background: var(--dark);
-}
-
-.team-item .team-social .btn:hover {
-  color: #ffffff;
-  background: var(--primary);
 }
 
 /*** Testimonial ***/
