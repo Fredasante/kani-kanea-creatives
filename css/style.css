@@ -354,3 +354,7 @@
   bottom: 0;
   z-index: 1;
 }
+
+.fred {
+  padding-top: 70px !important;
+}
